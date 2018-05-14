@@ -10,7 +10,8 @@ this are the rules;
 ## Setup/Installation Requirements
 * internet browser
 * git hub account
-* git address https://kabagemark.github.io/Kitchen/
+* git address https://kabagemark.github.io/PigDice/
+
 
 {you only need to have a web browser and access to internet }
 ## Known Bugs
