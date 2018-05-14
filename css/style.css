@@ -12,21 +12,27 @@ body{
 }
 .user1{
   color: black;
+  font-size: 50px;
 }
 .user2{
   color: black;
+  font-size: 50px;
 }
 .score1{
   color: black;
+  font-size: 50px;
 }
 .score2{
   color: black;
+  font-size: 50px;
 }
 .points1{
   color: black;
+  font-size: 50px;
 }
 .points2{
   color: black;
+  font-size: 50px;
 }
 .dice{
 
@@ -39,13 +45,19 @@ body{
   border-style: solid;
   border-color: black;
   padding-left:130px;
-  padding-top:130px;
-  padding-bottom:130px;
+  padding-top:300px;
+  padding-bottom:10px;
 }
 .dice2{
   border-style: solid;
   border-color: black;
   padding-left:130px;
-  padding-top:130px;
-  padding-bottom:130px;
+  padding-top:300px;
+  padding-bottom:10px;
+}
+.hang{
+    transform: translate(-50px, -160%);
+}
+.hang1{
+   transform: translate(-10px, -160%);
 }
