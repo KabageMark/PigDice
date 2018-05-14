@@ -1,14 +1,51 @@
 body{
-  background-image: url("../img/back1.jpg");
+  /*background-image: url("../img/dice1.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;*/
 
 }
 .btn{
   border-radius: 50%;
   height: 50px;
-  background-color: #3AF743  
+  background-color: black;
+  color: white;
 }
 .user1{
-  color: white;
+  color: black;
+}
+.user2{
+  color: black;
+}
+.score1{
+  color: black;
+}
+.score2{
+  color: black;
+}
+.points1{
+  color: black;
+}
+.points2{
+  color: black;
+}
+.dice{
+
+  margin-top:100px;
+  margin-bottom:100px;
+  margin-left:300px;
+  margin-right:300px;
+}
+.dice1{
+  border-style: solid;
+  border-color: black;
+  padding-left:130px;
+  padding-top:130px;
+  padding-bottom:130px;
+}
+.dice2{
+  border-style: solid;
+  border-color: black;
+  padding-left:130px;
+  padding-top:130px;
+  padding-bottom:130px;
 }
