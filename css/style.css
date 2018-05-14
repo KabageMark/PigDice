@@ -4,6 +4,15 @@ body{
   background-repeat: no-repeat;*/
 
 }
+h1{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 80px;
+}
+.rules{
+  margin-left:500px;
+  margin-right:450px;
+  font-family: 'Orbitron', sans-serif;
+}
 .btn{
   border-radius: 50%;
   height: 50px;
