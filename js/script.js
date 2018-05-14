@@ -1,16 +1,29 @@
 var totalPoints1=0;
 var totalPoints2=0;
 
-var points = function(playerscore){
+var points1 = function(playerscore){
   if(playerscore === 6){
 
-  return (totalPoints1 += 1) && (totalPoints2 += 1);
+  return (totalPoints1 += 1);
   }else{
   return 0;
  }
 }
+var points2 = function(playerscore){
+  if(playerscore === 6){
 
-
+  return (totalPoints2 += 1);
+  }else{
+  return 0;
+ }
+}
+// var compare = function(player1score,player2score){
+//   if (totalPoints1 = 5);
+//   alert("player 1 is winner")
+// }else if{
+//   (totalPoints12 = 5);
+//   alert("player 2 is winner")
+// }
 
 
 $(document).ready(function(){
@@ -25,17 +38,17 @@ $(document).ready(function(){
   });
   $("button#rolldice1").click(function(){
     var player1score = Math.floor((Math.random() * 6) + 1)
-    var scorepoints1 = points(player1score)
-    totalPoints1= scorepoints1;
+    var scorepoints1 = points1(player1score)
+
     $(".score1").text(player1score);
-    $(".points1").text("score:" + scorepoints1);
+    $(".points1").text("score:" + totalPoints1);
   });
   $("button#rolldice2").click(function(){
     var player2score = Math.floor((Math.random() * 6) + 1)
-    var scorepoints2 = points(player2score);
-    var totalPoints2= scorepoints2;
+    var scorepoints2 = points2(player2score);
+
     $(".score2").text(player2score);
-    $(".points2").text("score:" + scorepoints2);
+    $(".points2").text("score:" + totalPoints2);
   });
   $("button#hold1").click(function(){
     $("button#rolldice1").toggle();
